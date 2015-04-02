@@ -1,0 +1,21 @@
+set number
+set nocp
+set backspace=2
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+set noexpandtab
+colorscheme desert
+syntax on
+filetype on
+set autoindent
+set smartindent
+set ruler
+set incsearch
+set cursorline
+set guifont=Courier_new:h12:cDEFAULT
+set hlsearch
+set ignorecase smartcase
+set autochdir
+set background=light
+set showmatch
