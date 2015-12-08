@@ -7,4 +7,5 @@ function ListByTime ($s) {
 }
 
 #set git shell 
-C:\Users\pswgoo\AppData\Local\GitHub\shell.ps1
+.(Resolve-Path "$env:LOCALAPPDATA\GitHub\shell.ps1")
+$env:TERM = ""
